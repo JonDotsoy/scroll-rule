@@ -1,0 +1,18 @@
+{
+  "name": "scroll-rule",
+  "description": "",
+  "main": "src/scroll-rule.js",
+  "authors": [
+    "Jon Dotsoy <hi@jon.soy>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

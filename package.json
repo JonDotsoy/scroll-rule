@@ -1,0 +1,10 @@
+{
+  "name": "scroll-rule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/scroll-rule.js",
+  "scripts": {
+  },
+  "author": "Jon Dotsoy <hi@jon.soy>",
+  "license": "MIT"
+}

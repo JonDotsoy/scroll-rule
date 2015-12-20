@@ -58,7 +58,7 @@
 	// Scroll Top Plugin
 	W.addEventListener("load", function () {
 
-		if (W.screenY == 0) {
+		if (W.scrollY == 0) {
 			document.body.setAttribute("scroll-top","scroll-top")
 			document.body.removeAttribute("no-scroll-top");
 		} else {

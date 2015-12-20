@@ -56,9 +56,15 @@
 
 
 	// Scroll Top Plugin
-	window.addEventListener("load", function () {
+	W.addEventListener("load", function () {
 
-		document.body.setAttribute("scroll-top","scroll-top")
+		if (W.screenY == 0) {
+			document.body.setAttribute("scroll-top","scroll-top")
+			document.body.removeAttribute("no-scroll-top");
+		} else {
+			document.body.setAttribute("no-scroll-top","no-scroll-top")
+			document.body.removeAttribute("scroll-top");
+		}
 
 		var stateTop = true;
 		W.ScrollRule.rule("==0", function () {
